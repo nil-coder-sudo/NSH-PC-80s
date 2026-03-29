@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_HELLO_OLED),)
+CONFIGURED_APPS += examples/hello_oled
+endif

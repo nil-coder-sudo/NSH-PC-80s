@@ -1,0 +1,3 @@
+config EXAMPLES_HELLO_OLED
+    tristate "Hello OLED Example"
+    default n

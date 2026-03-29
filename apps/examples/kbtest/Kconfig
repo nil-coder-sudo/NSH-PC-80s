@@ -1,0 +1,11 @@
+config EXAMPLES_KBTEST
+	tristate "CardKB Keyboard Test"
+	default n
+	---help---
+		Enable the CardKB I2C keyboard test example.
+
+if EXAMPLES_KBTEST
+config EXAMPLES_KBTEST_PROGNAME
+	string "Program name"
+	default "kbtest"
+endif
